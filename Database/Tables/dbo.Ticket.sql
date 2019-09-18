@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Ticket]
+(
+[Id] [int] NOT NULL,
+[IsGolden] [bit] NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Ticket] ADD CONSTRAINT [PK__Ticket__3214EC07C2F08B1B] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
+GO
